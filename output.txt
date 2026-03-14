@@ -1,0 +1,36 @@
+ds@ds:~/ds_b3_41$ ./p8
+Enter the number of memory blocks: 5
+Enter the size of each memory block:
+100 500 200 300 600
+Enter the number of processes: 4
+Enter the size of each process:
+412 112 75 50
+
+First Fit Allocation:
+Process No.    Process Size    Block No.    Remaining Space
+1              412             2            88
+2              112             3            88
+3              75              1            25
+4              50              2            38
+
+Best Fit Allocation:
+Process No.    Process Size    Block No.    Remaining Space
+1              412             5            188
+2              112             2            388
+3              75              3            125
+4              50              1            50
+
+Worst Fit Allocation:
+Process No.    Process Size    Block No.    Remaining Space
+1              412             5            188
+2              112             2            388
+3              75              4            225
+4              50              4            175
+
+Next Fit Allocation:
+Process No.    Process Size    Block No.    Remaining Space
+1              412             2            88
+2              112             3            88
+3              75              4            225
+4              50              5            550
+ds@ds:~/ds_b3_41$
